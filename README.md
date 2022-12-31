@@ -114,7 +114,7 @@
 * 主要目的：規範多元協作可能出現的衝突，主要有5個分支
   * Master分支：主要是用來放穩定、隨時可上線的版本，只能從別的分支合併過來。
   * Develop和Feature分支：Develop是所有開發的基礎分支，在新增功能的時會從這個分支切出去 Feature分支，功能完成後，再合併回來這個分支。
-  * Hotfix分支：當線上產品發生緊急問題的時會從Master分支開一個Hotfix分支出來進行修復，修復完成之後，會合併回Master分支，也同時合併一份到Develop分支。
+  * Hotfix分支：當發生緊急問題的時會從Master分支開一個Hotfix分支出來進行修復，修復完成之後，會合併回Master和另一份到Develop分支。
   * Release分支：當認為Develop分支成熟時，會合併到Release分支，在這邊進行上線前的最後測試。測試完成後，Release 分支會同時合併到Master、Develop分支上。
   
   
