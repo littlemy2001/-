@@ -86,6 +86,18 @@
     <img width="215" alt="image" src="https://user-images.githubusercontent.com/113632844/210133719-984c5a1b-f966-474d-a477-f8116b8f9345.png">
     <img width="246" alt="image" src="https://user-images.githubusercontent.com/113632844/210133726-e7609ff7-a17f-4adc-832d-05507c48a944.png">
 * sed文字分析工具：字串取代、複製、刪除
+  * Sed語法 – 常用選項、常用指令、常用旗幟
+  
+    <img width="354" alt="image" src="https://user-images.githubusercontent.com/113632844/210134041-cff6d458-3237-4ab9-acba-1f1f14ea278b.png">
+    <img width="403" alt="image" src="https://user-images.githubusercontent.com/113632844/210134050-b371f056-b84b-435a-8cec-345b4be52f02.png">
+    <img width="162" alt="image" src="https://user-images.githubusercontent.com/113632844/210134085-ddfc8a17-0409-4bd1-8208-df3746dc8900.png">
+  * Grep, Awk, Sed的比較
+    * grep：文字搜尋工具
+    * awk：文字分析工具
+    * sed：線上編輯器
+
+
+
 
 
   
