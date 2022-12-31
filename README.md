@@ -62,7 +62,8 @@
 # awk 指令與sed 指令
 * awk 文字分析工具：用在對文字和資料進行分析處理、檔案逐行的讀入
   * <img width="469" alt="image" src="https://user-images.githubusercontent.com/113632844/210132961-29cc722f-7979-4b27-b11b-7c3ea172daa3.png">
-  * 第一步執行BEGIN 語句
+  
+    第一步執行BEGIN 語句
   
     第二步從檔案或標準輸入讀取一行，然後再執行pattern語句，逐行掃描檔案到檔案全部被讀取
     
