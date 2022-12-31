@@ -23,9 +23,24 @@
   * 使用者與群組
     * 身份分類：user (owner)/group/others
     * 身分類別：系統管理員： root和一般帳號
-  * 指令
+  * 指令圖(取自講義)
     * <img width="398" alt="image" src="https://user-images.githubusercontent.com/113632844/210129333-4abeef1a-7a88-4a56-b6bb-3445dba9c940.png">
-    * <img width="400" alt="image" src="https://user-images.githubusercontent.com/113632844/210129336-9151b2e4-9830-4da0-8c41-3eb55a17aa8d.png"> (取自講義)
-     
+    * <img width="400" alt="image" src="https://user-images.githubusercontent.com/113632844/210129336-9151b2e4-9830-4da0-8c41-3eb55a17aa8d.png">
+# W3
+# Linux 背景介紹與實作
+* Linux 背景介紹
+  * 壓縮檔案
+    * 壓縮時的考慮因素：壓縮率、壓縮時間、所需記憶體空間、相容性(解壓縮程式的普遍性)
+    * 壓縮格式的選擇：
+      1. gzip：需要在記憶體很小的機器（如<128MB）上解壓縮時，或很簡單、沒有什麼工具可用的機器解壓縮時
+      2. xz：需要節省網路頻寬、縮短下載所需要的時間時
+      3. tar.xz：需要有最好的壓縮率時
+    * Linux指令：壓縮檔案、檔案搜尋、檔案&文字相關(詳見講義)
+  * 資料傳輸
+    * 圖表(取自講義)
+      * <img width="621" alt="image" src="https://user-images.githubusercontent.com/113632844/210131287-162426de-7e8c-4645-a452-4c84b242bf02.png">
+    * Port：埠號是由 16 個位元所組成的號碼，0 ~ 255 為保留號碼，256 ~ 65535 則可自行設定。
+    * TCP/IP：提供了點對點的連結機制，**將資料如何封裝、定址、傳輸、路由以及在目的地如何接收，都加以標準化**。
+  
 
    
