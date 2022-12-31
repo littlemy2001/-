@@ -58,6 +58,45 @@
 * Linux 文字處理工具
   * grep：從資料或檔案中，使用關鍵字或正規表達法(Regex)找出想要的內容，如：grep [option] filename
   * grep參數與其他文字處理工具就看講義
+# W5
+# awk 指令與sed 指令
+* awk 文字分析工具：用在對文字和資料進行分析處理、檔案逐行的讀入
+  * <img width="469" alt="image" src="https://user-images.githubusercontent.com/113632844/210132961-29cc722f-7979-4b27-b11b-7c3ea172daa3.png">
+  * 第一步執行BEGIN 語句
+  
+    第二步從檔案或標準輸入讀取一行，然後再執行pattern語句，逐行掃描檔案到檔案全部被讀取
+    
+    第三步執行END語句
+  * awk record & field：對Linux來說，每一行讀進來皆為新的一行，因此為$0
+  * awk 語法的常用引數：
+    * -F 指定分隔符(可是字串或正規表達法)，預設是空白(space)
+    * -f 從指令碼檔案(awk script)中讀取awk命令
+    * -v var=value賦值變數，將外部變數遞給awk
+  * awk 參數：
+    * $0：當前record（橫行）
+    * $1~$n：當前record的第 N 個欄位
+    * FS：比對前一個字串零次或是多次
+    * RS：輸入record（列、橫行）分割符，預設換行符
+    * NF：欄位個數
+    * NR：record 數，就是行號，預設從 1 開始
+  * awk 算術運算子、關係運算子、邏輯運算子、正則運算子
+  
+    <img width="211" alt="image" src="https://user-images.githubusercontent.com/113632844/210133704-08617af4-31ea-4b07-b613-625b12ca0137.png">
+    <img width="217" alt="image" src="https://user-images.githubusercontent.com/113632844/210133710-c3c23bc5-2634-40c7-8d99-77854ec940b1.png">
+    <img width="215" alt="image" src="https://user-images.githubusercontent.com/113632844/210133719-984c5a1b-f966-474d-a477-f8116b8f9345.png">
+    <img width="246" alt="image" src="https://user-images.githubusercontent.com/113632844/210133726-e7609ff7-a17f-4adc-832d-05507c48a944.png">
+* sed文字分析工具：字串取代、複製、刪除
+
+
+  
+
+
+   
+  
+    
+
+  
+
    
 
    
